@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>artemis-regression-testing</artifactId>
+        <groupId>org.apache.activemq.artemis</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>amq-7.0.3</artifactId>
+
+    <properties>
+        <artemis.version>2.0.0.amq-700013-redhat-1</artemis.version>
+        <qpid.version>0.26.0.redhat-1</qpid.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.activemq.artemis</groupId>
+            <artifactId>artemis-test-base</artifactId>
+            <version>${project.version}</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+
+</project>
